@@ -14,7 +14,7 @@ const ChatHistory = () => {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="🔍 Search..."
-          className="mt-9 mx-4 top-[107px] left-4 w-72 h-10 -left[1px] bg-[#262626] border-2 border-[#BCBCBC] rounded-[34px] placeholder:text-white placeholder:p-5"
+          className="mt-9 mx-4 top-[107px] left-4 w-72 h-10 -left[1px] bg-[#262626] border-2 border-[#BCBCBC] rounded-[34px] text-white placeholder:text-white placeholder:p-5"
         />
 
         <ul className="relative left-[22px] list-none flex flex-col text-sm text-white text-opacity-60 justify-center text-[18px] font-medium leading-10 text-left ">

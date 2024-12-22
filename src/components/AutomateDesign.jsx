@@ -369,7 +369,7 @@ const AutomateDesign = () => {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="Search here to customize your discovery process....."
-          class="flex-1 bg-transparent outline-none px-2"
+          class="flex-1 bg-transparent outline-none px-2 text-white"
         />
 
         <div className="gap-1 flex items-center">
