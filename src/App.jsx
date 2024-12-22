@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import Sidebar from "./components/sidebar";
+import Sidebar from "./components/Sidebar";
 import ChatHistory from "./components/ChatHistory";
 import AutomateDesign from "./components/AutomateDesign";
 
